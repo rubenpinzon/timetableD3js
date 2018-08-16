@@ -1,0 +1,70 @@
+hansa = rgba(233, 215, 88, 1)
+myrtle = rgba(41, 115, 115, 1)
+portland = rgba(244, 96, 54, 1)
+hunter= rgba(67, 100, 54, 1)
+light= rgba(202, 207, 214, 1)
+ws-color = #9D0015
+ws-color2 = #434A22
+
+body
+  padding 0
+  margin 0
+
+#banner
+  width 100%
+  height 60px
+  background-color ws-color
+
+img
+  height: 60px
+  padding-left 5%
+
+#secondfooter
+  width 100%
+  height 50px
+  background-color ws-color2
+  color: white
+  text-align center
+
+  p
+    margin 0
+    padding-top 10px
+
+#footer
+  width 100%
+  height 150px
+  background-color ws-color
+  color: white
+
+
+#chart, #header
+  width 90%
+  margin-left auto
+  margin-right auto
+  padding 10px
+  text-align center
+
+rect
+  fill lightyellow
+  stroke: black
+  stroke-width 1px
+
+  &.depth0
+    fill white
+    stroke ws-color
+    stroke-width 3px
+
+  &.depth3
+    fill hansa
+
+
+text
+  font-family: "Helvetica Neue", Helvetica, sans-serif
+  fill: black
+
+  &.depth0
+    fill ws-color
+    font-family: 'Roboto Slab', serif
+
+  &.depth1
+    font-family: 'Roboto Slab', serif
